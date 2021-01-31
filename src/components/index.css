@@ -1,0 +1,31 @@
+.links{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}
+
+.link:visited{
+    color: inherit;
+}
+
+.header{
+   flex-direction: row;
+    display: flex;
+    font-size: 25px;
+    
+    align-items: flex-end;
+}
+.headerlink{
+    float: right;
+}
+.textdata{
+    color: khaki;
+}
+.logeddata{
+    color: lightcoral;
+}
+.logeddatamail{
+    color: royalblue;
+}

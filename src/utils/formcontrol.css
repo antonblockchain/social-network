@@ -1,0 +1,12 @@
+
+.form-control  input{
+    border: 1px solid red;
+}
+ .form-control textarea{
+    border: 1px solid red;
+}
+
+.form-control span{
+    color: red;
+    size: 15px;
+}

@@ -1,0 +1,40 @@
+.photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.user{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+    border: 2px solid teal;
+    margin: 5px 0;
+    
+}
+.user h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 20px;
+    font-size: 30px;
+    
+}
+.selectedPage{
+color: violet;
+}
+
+
+.userscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.page{
+    font-size: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: .1s color ease-in;
+}
+.page:hover{
+color: tomato;
+}
